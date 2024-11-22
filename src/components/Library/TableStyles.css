@@ -1,0 +1,74 @@
+.table-container {
+    margin: 20px;
+  }
+  
+  .styled-table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .styled-table th,
+  .styled-table td {
+    border: 1px solid #ddd;
+    text-align: left;
+  }
+  
+  .styled-table th {
+    font-size: 0.8em; /* Smaller font size for headers */
+    padding: 4px; /* Reduced padding for headers */
+    background-color: #4d9138; /* Optional background color for headers */
+  }
+  
+  .styled-table td {
+    padding: 8px; /* Standard padding for data rows */
+  }
+  
+  .cart-button {
+    background-color: green;
+    border: none;
+    color: white;
+    border-radius: 4px;
+    padding: 8px;
+    cursor: pointer;
+  }
+  
+  .cart-button:hover {
+    background-color: darkgreen; /* Change color on hover */
+  }
+  
+  .pagination {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+  }
+  .styled-table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .styled-table th,
+  .styled-table td {
+    border: 1px solid #ddd;
+    text-align: left;
+  }
+  
+  .styled-table th {
+    font-size: 0.8em; /* Smaller font size for headers */
+    padding: 4px; /* Reduced padding for headers */
+    background-color: #3e5c36; /* Optional background color for headers */
+  }
+  
+  .styled-table td {
+    padding: 8px; /* Standard padding for data rows */
+  }
+  
+  /* Specific widths for columns */
+  .styled-table th.name-column,
+  .styled-table td.name-column {
+    width: 60%; /* 60% for the Name column */
+  }
+  
+  .styled-table th.other-column,
+  .styled-table td.other-column {
+    width: 20%; /* 20% for other columns */
+  }

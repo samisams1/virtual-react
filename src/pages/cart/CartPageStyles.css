@@ -1,0 +1,153 @@
+.page-container {
+    display: flex;
+  }
+  
+  .content-container {
+    flex: 1; /* Take remaining space */
+    max-width: 1200px; /* Center the content */
+    margin: 10px auto; /* Center the container with vertical spacing */
+    padding: 20px; /* Add padding */
+    background-color: #f7f9fc; /* Light background for contrast */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Soft shadow */
+  }
+  
+  .page-title {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .card {
+    background-color: #ffffff;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    padding: 16px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-bottom: 16px; /* Space between cards */
+  }
+  
+  .card-title {
+    font-size: 1.5rem;
+    margin-bottom: 12px;
+  }
+  
+  .detail {
+    margin: 8px 0;
+  }
+  
+  .order-item {
+    border-bottom: 1px solid #e0e0e0;
+    padding: 8px 0;
+  }
+  
+  .close-icon {
+    background: none;
+    border: none;
+    color: #ff4d4f;
+    cursor: pointer;
+  }
+  
+  .payment-section {
+    margin-top: 20px;
+  }
+  
+  .section-title {
+    font-size: 1.5rem;
+    margin-bottom: 12px;
+  }
+  
+  .payment-option {
+    margin: 10px 0;
+  }
+  
+  .coupon {
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+  }
+  
+  .apply-button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .continue-button {
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 20px;
+    width: 100%; /* Make the button full width */
+  }
+  
+  .continue-button:hover,
+  .apply-button:hover {
+    opacity: 0.9;
+  }
+
+
+
+  .input-field,
+.select-field {
+  width: 100%;
+  padding: 10px;
+  margin-left: 10px;
+  margin-top: 5px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+  transition: border-color 0.3s;
+}
+
+.input-field:focus,
+.select-field:focus {
+  border-color: #007bff;
+  outline: none;
+}
+
+.card {
+  padding: 20px;
+  background-color: #f8f9fa;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.card-title {
+  margin-bottom: 15px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.detail {
+  margin-bottom: 10px;
+}
+
+.page-title {
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.continue-button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s;
+}
+
+.continue-button:hover {
+  background-color: #0056b3;
+}

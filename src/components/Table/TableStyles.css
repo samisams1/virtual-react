@@ -1,0 +1,144 @@
+.table-container {
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  max-width: 100%;
+  overflow-x: auto;
+}
+
+.search-container {
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center; /* Align items vertically */
+}
+
+.search-container input {
+  flex: 1; /* Allow input to take available space */
+  max-width: 300px; /* Max width for the input field */
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-right: 10px; /* Space between input and buttons */
+}
+
+.search-container button {
+  background-color: #00796b;
+  color: white;
+  border: none;
+  padding: 8px 10px; /* Reduced padding */
+  border-radius: 4px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background-color 0.3s;
+  margin-left: 5px; /* Space between buttons */
+  white-space: nowrap; /* Prevent text wrapping */
+}
+
+.search-container button:hover {
+  background-color: #1be6ce;
+}
+
+.styled-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 20px 0;
+  font-size: 1em;
+  font-family: 'Arial', sans-serif;
+}
+
+.styled-table thead tr {
+  background-color: #00796b;
+  color: #ffffff;
+  text-align: left;
+}
+
+.styled-table th,
+.styled-table td {
+  padding: 12px 15px;
+}
+
+.styled-table tbody tr {
+  border-bottom: 1px solid #dddddd;
+}
+
+.styled-table tbody tr:hover {
+  background-color: #f5f5f5;
+}
+
+.pagination {
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.pagination button {
+  border: none;
+  background-color: #00796b;
+  color: white;
+  padding: 8px 12px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.pagination button:hover {
+  background-color: #5df3e2;
+}
+
+.action-button {
+  background-color: #00796b;
+  color: white;
+  border: none;
+  padding: 6px 12px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.action-button:hover {
+  background-color: #218838;
+}
+
+.search-container button svg {
+  margin-right: 5px; /* Space between icon and text */
+  color: white; /* Icon color */
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+  .search-container {
+    flex-direction: column; /* Stack on smaller screens */
+    align-items: flex-start; /* Align items to the start */
+  }
+
+  .search-container input {
+    flex: 1 1 100%; /* Full width on smaller screens */
+    margin-right: 0; /* Remove right margin */
+    margin-bottom: 10px; /* Add margin below for spacing */
+  }
+
+  .search-container button {
+    flex: 0 0 auto; /* Automatically size based on content */
+    margin-left: 0; /* Remove left margin */
+    margin-bottom: 10px; /* Add margin below for spacing */
+  }
+
+  .pagination {
+    flex-direction: column; /* Stack pagination controls */
+    align-items: flex-start; /* Align to the start */
+  }
+
+  .pagination button {
+    margin-bottom: 5px; /* Space between pagination buttons */
+  }
+}
+.item-image {
+  width: 40px; /* Set width to 30px */
+  height: 40px; /* Set height to 30px */
+  object-fit: cover; /* Crop the image to fit the box */
+  border-radius: 50%; /* Optional: makes the image circular */
+}
